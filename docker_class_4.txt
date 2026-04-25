@@ -1,0 +1,14 @@
+Docker Training Session Summary
+
+Covered complete Docker workflow, including building, running, and managing containers and images.
+Explained Dockerfile commands in detail: FROM, RUN, CMD, COPY vs ADD, EXPOSE, ENV, WORKDIR, ENTRYPOINT vs CMD.
+Discussed Docker image optimization and reducing image size.
+Demonstrated container-to-image conversion using docker commit.
+Covered troubleshooting commands: docker logs, docker stats, docker inspect.
+Explained system cleanup using docker system prune.
+Discussed real-time issues, including CloudFlare outage and practical debugging.
+Covered Docker Hub usage, pushing/pulling images, and repository management.
+Highlighted security practices with Docker Scout and vulnerability scanning.
+Explained access management: GCP project access, firewall rules, and SSH key handling.
+
+

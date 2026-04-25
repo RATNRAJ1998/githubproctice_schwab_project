@@ -1,0 +1,86 @@
+1. download the script
+#
+#   $ curl -fsSL https://get.docker.com -o install-docker.sh
+#
+# 
+#
+#   $ sudo sh install-docker.sh
+#
+# Command-line options
+
+
+     ls
+
+    2  curl -fsSL https://get.docker.com -o install-docker.sh
+
+    3  ls
+
+    4  sudo sh install-docker.sh
+
+    5  docker -v
+
+    6  docker run ubuntu
+
+    7  docker images
+
+    8  docker ps
+
+    9  docker ps -a         arciverd all 
+
+   10  docker start 1fc9a91695d9
+
+   11  docker ps
+
+   12  docker exec -it  1fc9a91695d9 /bin/bash
+
+   13  history
+
+ 
+
+inside the container 
+
+  1  apt-get update
+
+    2  apt install git
+
+    3  exit
+
+    4  history
+	
+	______________________________________________________________________________________________
+	
+	docker image --
+	
+	
+	
+	jenkins image :-
+	
+	docker run -it -d -p 8080:8080 jenkins/jenkins:latest
+	
+	docker exec it de08b0abb710 /bin/bash
+	
+	cat /var/jenkins_home/secrets/initialAdminPassword
+	
+	861befcc495c456ebd80a20a35d15829
+	
+	
+	
+	______________________________________________________________________________________________
+
+FROM ubuntu
+
+MAINTAINER clouddevopshub@gmail.com
+
+RUN apt-get update
+
+RUN apt-get install nginx -y
+
+CMD ["echo","Image created"]
+
+	
+	
+docker build -t mynginxbatch21 .
+
+
+mynginxbatch21    latest    88b94847a842   7 minutes ago   141MB
+docker tag 88b94847a842 ratnrajsingh/mynginxbatch21:latest

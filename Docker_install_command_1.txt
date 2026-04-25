@@ -1,0 +1,42 @@
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+sh get-docker.sh
+
+curl -fsSL https://get.docker.com -o get-
+
+sh get-docker.sh
+
+
+
+
+
+Our Second container “ubuntu os”
+
+Step 1 – Pull ubuntu image from docker hub
+
+docker images
+
+Step 2 - Run the image in interactive mode to make a container
+
+docker run -it ubuntu
+
+Step 3 Come out from the container with exit command
+
+Step 4 – Start a container
+
+docker start <container ID>
+
+Step -5 logged into the bash of the container
+
+docker exec -it <Container ID> bin/bash
+
+Step -6 Your container is ready to play any application try to install GIT in ubuntu container
+
+apt update
+
+apt install git-all
+
+apt install ansible
+
+apt install python
+

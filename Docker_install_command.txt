@@ -1,0 +1,101 @@
+docker run -it -d -p 8080:8080 jenkins/jenkins:latest
+
+	
+
+	docker exec -it containerid bin/bash
+
+	
+
+cat /var/jenkins_home/secrets/initialAdminPassword
+
+
+
+FROM ubuntu
+
+RUN apt-get update
+
+RUN apt-get install nginx -y
+
+CMD [“echo”,”Image created”]
+
+
+
+
+https://docs.docker.com/security/access-tokens/----------------> error to bush docker 
+
+
+
+AI PYHTON AND AWS AND GCP PROJEXT
+
+sudo apt update && sudo apt install python3 python3-pip python3-venv -y
+sudo apt install git -y && sudo apt install poppler-utils -y
+git clone https://.....
+
+goto inside the file applicarion-tracking-system
+and run below command.
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+
+pip install --upgrade pip
+
+pip install -r requirements.txt
+
+pip install google-generativeai
+
+
+mkdir -p .streamlit
+
+vi .streamlit/secrets.toml
+
+TYPE THE COMMAND 
+GOOGLE_API_KEY = "AIzaSyDNtZXWKO67zA5i43F1NOcoTYO9JxYkwRU"   
+:wq
+
+AIzaSyDNtZXWKO67zA5i43F1NOcoTYO9JxYkwRU    API key GCP
+
+GOOGLE_API_KEY = "your-api-key-here"
+
+GOOGLE_API_KEY = "AIzaSyDNtZXWKO67zA5i43F1NOcoTYO9JxYkwRU"
+
+now run the command and check in googal browser.
+
+streamlit run app.py --server.port 8501 --server.enableCORS false
+
+
+
+
+today 8.30  night mock interview
+
+
+https://www.clouddevopshub.com/s/courses/686ced061807e86c25af49d9/take#68b7a94ef8312a332811b80b
+
+
+---
+
+apiVersion: v1
+
+kind: Namespace
+
+metadata: 
+
+  name: dev
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+GOOGLE_API_KEY = "AIzaSyDNtZXWKO67zA5i43F1NOcoTYO9JxYkwRU"
+
+
+
